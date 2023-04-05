@@ -23,6 +23,8 @@ The genetic algorithm provides a powerful optimization technique that can be use
 
 Particle Swarm Optimization (PSO) is a popular metaheuristic optimization algorithm that can be used to optimize the weights of a neural network. PSO is based on the behavior of swarms in nature, where each individual particle adjusts its position based on its own experience and the experience of the best particle in the swarm.
 
+Weight optimization of neural networks using Particle Swarm Optimization involves initializing a swarm of particles, where each particle represents a candidate solution for the weights of the neural network. The particles adjust their positions and velocities based on their current position, their previous best position, and the best position found by any particle in the swarm. The fitness function is evaluated for each particle's position, and the weights are updated based on the position of the particle with the best fitness value. This process is repeated for a number of iterations until a satisfactory solution is found. PSO has been shown to be an effective method for optimizing the weights of neural networks and can be used for a wide range of applications.
+
 ## References
 
 - Research paper: 
