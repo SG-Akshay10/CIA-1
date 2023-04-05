@@ -35,18 +35,41 @@ Weight optimization of neural networks using Particle Swarm Optimization involve
 
 * [Swarm Intelligence: Coding and Visualising Particle Swarm Optimisation in Python](https://towardsdatascience.com/swarm-intelligence-coding-and-visualising-particle-swarm-optimisation-in-python-253e1bd00772)
 
+# Weight Optimisation of Neural Network using Ant Colony Optimization
+
+Ant Colony Optimization (ACO) is a metaheuristic optimization algorithm inspired by the behavior of ants searching for food. The idea of using ACO for weight optimization in neural networks is to treat the weights of the neural network as pheromones, which ants deposit and follow to find the shortest path to food.
+
+The ACO algorithm can be used to optimize the weights of a neural network by treating them as pheromones that ants follow to find the shortest path to food. This approach involves initializing a pheromone matrix, generating an ant population to explore the weight space, constructing a neural network with random weights, and training the network. The pheromone matrix is updated based on the performance of the ants, and this process is repeated until the optimal weights are found. The use of ACO for weight optimization in neural networks can lead to improved accuracy and performance compared to other optimization algorithms.
+
+## References
+
+#### Research paper: 
+* [Training feed-forward neural networks with ant colony optimization: An application to pattern classification](https://github.com/SG-Akshay10/Dynamic_Programming/blob/main/CIA2/Reference/ReferencePaperForACO.pdf)
+
+
 # Comparision of Genetic Algorithm and Particle Swarm Optimization
 
-* PSO is a population-based method that maintains a swarm of particles, while GA is a genetic-based method that uses a population of candidate solutions.
-* PSO uses a local and global search strategy to update the particles' positions, while GA uses selection, crossover, and mutation operators to generate new candidate solutions.
-* PSO has fewer parameters to tune than GA, making it easier to implement and more computationally efficient.
-* PSO is known to converge faster than GA for certain optimization problems, but GA has been shown to perform better for more complex problems that require a more extensive search of the solution space.
-* Based of accuracy both are eqaually accurate algorithm with genetic being a slighly more accurate than Particle Swarm Optimization
+Particle Swarm Optimization (PSO), Genetic Algorithm (GA), and Ant Colony Optimization (ACO) are examples of metaheuristic optimisation techniques used to solve challenging issues. Yet how they approach optimisation and how they apply it varies.
+
+Natural selection and evolution are the sources of GA's inspiration. New generations of solutions are produced by applying selection, crossover, and mutation procedures on an initial population of solutions. The best solutions are chosen to build the following generation once each solution's fitness has been assessed. GA is frequently utilised in a variety of industries, including biology, banking, and engineering.
+
+The behaviour of ants looking for food served as the basis for ACO. It entails developing answers by tracing pheromone trails left by earlier ants. The pheromone trail is updated based on how the ants perform, and the algorithm eventually finds the optimal answer. Routing and scheduling issues like the travelling salesman dilemma are frequently addressed with ACO.
+
+PSO draws inspiration from both the schooling behaviour of fish and the flocking behaviour of birds. It involves moving particles that each have a position and velocity inside a search space. Based on the particle's best position and the swarm's best position, the velocity is updated. PSO is utilised in numerous applications, such as data mining, control systems, and image processing.
+
+GA typically performs better when used to issues that have a big search space and few variables. PSO is more suited for continuous optimisation issues, while ACO is more successful for discrete optimisation issues with plenty of variables.
+
+To sum up, GA, ACO, and PSO are strong optimisation algorithms that may be used to a variety of issues. The kind of problem at hand and the properties of the search space influence the method of choice.
+
 
 #### Particle Swarm Optimization : 
 ![image](https://user-images.githubusercontent.com/83088512/230156228-0aa57cab-4ba2-450b-9f02-54d06d364d16.png)
 
 #### Genetic Algorithm:
 ![image](https://user-images.githubusercontent.com/83088512/230156629-2190d699-48a1-4db5-9658-22ebc5afad56.png)
+
+#### Ant Colony Optimization:
+![image](https://user-images.githubusercontent.com/83088512/230175815-dcd43ff1-24e6-4793-a19a-c26ca0fac7bd.png)
+
 
 
