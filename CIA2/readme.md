@@ -13,11 +13,11 @@ The genetic algorithm provides a powerful optimization technique that can be use
 
 ## References
 
-- Research paper: 
-[Training Feedforward Neural Networks Using Genetic Algorithms](https://github.com/SG-Akshay10/Dynamic_Programming/blob/main/CIA2/Reference/Training%20Feedforward%20Neural%20Networks%20Using%20Genetic%20Algorithms%5B2155%5D.pdf)
+#### Research paper: 
+* [Training Feedforward Neural Networks Using Genetic Algorithms](https://github.com/SG-Akshay10/Dynamic_Programming/blob/main/CIA2/Reference/Training%20Feedforward%20Neural%20Networks%20Using%20Genetic%20Algorithms%5B2155%5D.pdf)
 
-- Website: 
-[Towardsdatascience](https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3)
+#### Website: 
+* [Towardsdatascience](https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3)
 
 # Weight Optimisation of Neural Network using Particle Swarm Optimization
 
@@ -27,10 +27,26 @@ Weight optimization of neural networks using Particle Swarm Optimization involve
 
 ## References
 
-- Research paper: 
-[Particle Swarm Optimization](https://github.com/SG-Akshay10/Dynamic_Programming/blob/main/CIA2/Reference/Particle_swarm_optimization.pdf)
+#### Research paper: 
+* [Particle Swarm Optimization](https://github.com/SG-Akshay10/Dynamic_Programming/blob/main/CIA2/Reference/Particle_swarm_optimization.pdf)
 
-- Website: 
-[Particle Swarm Optimization from Scratch with Python](https://nathanrooy.github.io/posts/2016-08-17/simple-particle-swarm-optimization-with-python/)
+#### Website: 
+* [Particle Swarm Optimization from Scratch with Python](https://nathanrooy.github.io/posts/2016-08-17/simple-particle-swarm-optimization-with-python/)
 
-[Swarm Intelligence: Coding and Visualising Particle Swarm Optimisation in Python](https://towardsdatascience.com/swarm-intelligence-coding-and-visualising-particle-swarm-optimisation-in-python-253e1bd00772)
+* [Swarm Intelligence: Coding and Visualising Particle Swarm Optimisation in Python](https://towardsdatascience.com/swarm-intelligence-coding-and-visualising-particle-swarm-optimisation-in-python-253e1bd00772)
+
+# Comparision of Genetic Algorithm and Particle Swarm Optimization
+
+* PSO is a population-based method that maintains a swarm of particles, while GA is a genetic-based method that uses a population of candidate solutions.
+* PSO uses a local and global search strategy to update the particles' positions, while GA uses selection, crossover, and mutation operators to generate new candidate solutions.
+* PSO has fewer parameters to tune than GA, making it easier to implement and more computationally efficient.
+* PSO is known to converge faster than GA for certain optimization problems, but GA has been shown to perform better for more complex problems that require a more extensive search of the solution space.
+* Based of accuracy both are eqaually accurate algorithm with genetic being a slighly more accurate than Particle Swarm Optimization
+
+#### Particle Swarm Optimization : 
+![image](https://user-images.githubusercontent.com/83088512/230156228-0aa57cab-4ba2-450b-9f02-54d06d364d16.png)
+
+#### Genetic Algorithm:
+![image](https://user-images.githubusercontent.com/83088512/230156629-2190d699-48a1-4db5-9658-22ebc5afad56.png)
+
+
